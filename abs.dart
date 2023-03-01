@@ -1,10 +1,23 @@
-import 'dart:math';
-void main()
-{
-      Random random = new Random();
-      int randomNumber = random.nextInt(10); // from 0 to 9 included
-       print("Generated Random Number Between 0 to 9: $randomNumber");
+void main() {
+
+    // Creating Map using Constructors
+  var marks = new Map();
   
-   int randomNumber2 = random.nextInt(10)+1; // from 1 to 10 included  
-print("Generated Random Number Between 1 to 10: $randomNumber2"); 
+   // Inserting values into Map
+  marks [60] = 'Isabella';
+  marks [85] = 'Shatho';
+  marks [95] = 'Kgosietsile';
+  
+  
+   // Printing Its content after insertion
+  print("Marks of students are: $marks");
+  
+  print(marks[60]);
+  print(marks['Shatho']);
+   
+  // Counting the length of the set
+  int l = marks.length;
+
+// Printing length
+  print("Length of the set is: $l");
 }
