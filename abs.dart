@@ -1,6 +1,6 @@
 void main() {
 // Declaring set with value
-  var gfg = <String>{'Hello Kgosietsile'};
+  var gfg = <String>{'Hello Kgosie'};
 
 // Printing Set
   print("Value in the set is: $gfg");
